@@ -1,0 +1,35 @@
+*{
+    margin: 10px;
+    padding:10px;
+}
+#p1 {
+    color: blue;
+    font-size: 20px;
+    background-color: lightgray;
+}
+#p2 {
+    color: red;
+    font-size: 30px;
+    background-color: lightyellow;
+}
+#p3 {
+    color: green;
+    font-size: 25px;
+    background-color: lightpink;
+}
+article {
+    color: purple;
+    font-size: 15px;
+    background-color: lightblue;
+}
+div &gt; p {
+    color: orange;
+    font-size: 18px;
+    background-color: lightgreen;
+}
+#A a:visited{
+    color:yellow;
+    font-size: 20px;
+    background-color: lightcoral;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+       body{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(107, 160, 204);
+            color: #333;
+            margin:0;
+            padding:25px;
+            line-height: 1.6;
+            font-size: auto;
+       }
+       .Box1{
+           background-color:rgb(203, 219, 233) ;
+           padding:20px;
+           margin:auto;
+           width:50vw;
+           border-radius: 10px;  
+           box-shadow: 15px 15px 5px 5px rgba(8, 14, 27, 0.3);
+           outline: 2px solid #000;
+              outline-offset: -5px; 
+       }
+       .Box2{
+           background-color:rgb(203, 219, 233) ;
+           padding:20px;
+           margin:20px auto;
+           width:50vw;
+           border-radius: 10px;  
+           box-shadow: 15px 15px 5px 5px rgba(8, 14, 27, 0.3);
+           outline: 2px solid #000;
+              outline-offset: -5px; 
+       }
+       h1{
+         text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+       }
+         h2{
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+         }
+        pre{
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            box-shadow: 10px 10px 5px rgba(37, 37, 37, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="Box1">
+        <h1>Shadows</h1>
+        <p>Shadows are a way to add depth and dimension to your designs. They can be used to create a sense of hierarchy, draw attention to specific elements, or simply add a touch of style.</p>
+        <p>In this example, we will explore how to create shadows using CSS.</p>
+    </div>
+    <div class="Box2">
+        <h2>Box Shadow</h2>
+        <p>The box-shadow property in CSS allows you to add shadows to elements. You can specify the horizontal and vertical offsets, blur radius, spread radius, and color of the shadow.</p>
+        <pre><code>box-shadow: 10px 10px 5px #888888;This define the Horizintal-offset:10px;</code></pre>
+        <p>This will create a shadow that is offset 10 pixels to the right and 10 pixels down from the element, with a blur radius of 5 pixels and a color of #888888.</p>
+    </div>
+</body>
+</html>

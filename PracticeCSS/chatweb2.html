@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    transition: background-color 1s ease-in-out;
+}
+
+header {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+    </style>
+    <script>
+        function changeText() {
+            document.getElementById("message").innerHTML = "You clicked the button!";
+        }
+
+        function toggleColor() {
+            document.body.style.backgroundColor = document.body.style.backgroundColor === 'lightblue' ? '#f4f4f4' : 'lightblue';
+        }
+
+        function addElement() {
+            const newElement = document.createElement("p");
+            newElement.innerHTML = "New Element Added!";
+            document.getElementById("newContent").appendChild(newElement);
+        }   
+    </script>
+    <script>
+        function changeText() {
+    document.getElementById("message").innerText = "JavaScript is awesome!";
+}
+
+function toggleColor() {
+    document.body.style.backgroundColor = 
+        document.body.style.backgroundColor === "lightblue" ? "#f4f4f4" : "lightblue";
+}
+
+function addElement() {
+    let newDiv = document.createElement("div");
+    newDiv.innerText = "New Element Added!";
+    newDiv.style.padding = "15px";
+    newDiv.style.marginTop = "20px";
+    newDiv.style.backgroundColor = "#ffcc00";
+    newDiv.style.borderRadius = "5px";
+    document.getElementById("newContent").appendChild(newDiv);
+}
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Page</h1>
+        <p id="message">Enhance your web experience with JavaScript magic!</p>
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="toggleColor()">Toggle Background</button>
+        <button onclick="addElement()">Add Element</button>
+        <div id="newContent"></div>
+    </header>
+    
+</body>
+</html>
