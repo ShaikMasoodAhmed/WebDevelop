@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My layout</title>
+   <!-- <link rel="stylesheet" href="layout.css"> -->
+   <style>
+      *{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: hsl(207, 83%, 93%);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+
+}
+nav{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    padding: 10px;
+    margin: 10px;
+}
+nav ul li:hover{
+    background-color: aliceblue;
+    color: #333;
+    border-radius: 5px;
+}
+.main{
+    background-color: #a2efef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background-color:rgb(226, 251, 255);
+    padding:20px;
+    margin: 20px;
+    height: 40vh;
+    width: 40%;
+    overflow:auto;
+    border-radius: 10px;
+}
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    border:2px solid #333;
+    border-radius: 7px;
+    padding: 10px;
+
+}
+.logo{
+    background-color: #a2efef;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+     position: fixed;
+     right: 23px;
+     bottom:50px;
+  
+}
+footer{
+    background-color: rgb(42, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0px;
+    border-radius: 5px;
+    display: flex;
+    overflow: auto;
+}
+.about p{
+    padding: 5px;
+    margin: 0px;
+}
+.list{
+    position:absolute;
+    right: 30px;
+}
+.list ul{
+    list-style: none;
+    padding: 0px;
+}
+.list ul li{
+    padding: 5px;
+    margin: 5px;
+}
+.dis{
+    background-color: rgb(42, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0px;
+}
+
+
+   </style>
+</head>
+<body>
+</div>
+<header>
+      <nav>
+         <ul>
+            <li>Home</li>
+            <li >Experience</li>
+            <li>About us</li>
+            <li>Contact</li>
+         </ul>
+      </nav>
+   </header>
+   <div class="main">
+       <div class="box">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quo ipsum reprehenderit eos blanditiis amet unde tenetur, at voluptatem atque repellat et nesciunt repellendus molestias debitis rerum eaque commodi. Maxime iure minus ratione a voluptates quos molestias sapiente non consectetur, eligendi nobis eius ducimus perferendis?</p>
+         </div>
+         <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab tempore quos temporibus? Soluta ipsa ut architecto fugiat, nisi provident facilis dignissimos recusandae et atque delectus sunt hic error, iste doloribus corrupti natus nam tempore explicabo ea asperiores saepe quas repellendus eum. Distinctio neque similique ducimus nostrum nobis sint dignissimos dolores modi aliquam. Rerum quaerat laudantium iure! Expedita, ducimus quas.</p>
+         </div>
+      </div>
+      
+      <div class="logo">
+         <img src="https://i.postimg.cc/4Nx7fPd3/My-Profile.jpg" alt="Logo"> 
+      </div>
+
+      <div class="label">
+         <h2>--Welcome to web development--</h2>
+         <h3>This is my layout</h3>
+      </div>
+      
+<footer>
+   <div class="about">
+      <p>© 2023 My Website</p>
+      <p>All rights reserved.</p>
+      <p>Contact us:shiakmasoodahmed1018@gmail.com</p>
+      <p>Phone: +1234567890</p>
+      <p>Address: 123 Main St, City, Country</p>
+      <p>Privacy Policy</p>
+      <p>Terms of Service</p>
+      
+   </div>
+   <div class="list">
+      <p>Follow us on social media</p>
+      <ul>
+         <li>Facebook</li>
+         <li>Twitter</li>
+         <li>Instagram</li>
+         <li>LinkedIn</li>
+         <li>GitHub</li>
+         <li>YouTube</li>
+      </ul>
+      </div>
+   </footer>
+   <div class="dis">
+      <p>Disclaimer: The information provided on this website is for general informational purposes only. We make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose.</p>
+      </div>
+</body>
+</html>
